@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>SELF INTRODUCTION</title>
+    <style>
+        body {
+            font-family: Verdana;
+            margin: 0;
+            padding: 0;
+            background-color: #104815;
+            position: relative;
+            min-height: 100vh;
+        }
+        #container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1s ease-out;
+            text-align: center;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        h1, h2 {
+            text-align: center;
+            animation: slideIn 1s ease-out;
+            background-color: #116937;
+            color: #fff;
+            padding: 10px;
+        }
+        @keyframes slideIn {
+            from {
+                transform: translateY(-50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+        p {
+            line-height: 1.6;
+            animation: fadeInUp 1s ease-out;
+        }
+        @keyframes fadeInUp {
+            from {
+                transform: translateY(50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+        a {
+            color: #0060c6;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .watermark {
+            position: absolute;
+            bottom: 10px;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            font-size: 14px;
+            color: rgba(0, 0, 0, 0.3);
+        }
+    </style>
+    <h1>SELF INTRODUCTION</h1>
+</head>
+<body>
+    <div id="container">
+        <p>大家好，我是陳家盛.</p>
+        <p>Hello! My name is Jonathan.</p>
+        <p>I am a Computer Science student in National Quemoy University.</p>
+        <p>I am 18 years old and i am from Indonesia.</p>
+        <p>I love to do alot of things like playing games, coding, trading and more.</p>
+        <p>You can check my Github profile down here!</p>
+        <ol>
+        <a href="https://github.com/Jonathan-es">Github</a>
+        </ol>
+        <p>That's all for my Self Introduction, Thank You!</p>
+      </div>
+</body>
+</html>
