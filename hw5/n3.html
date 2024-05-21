@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+
+    <body>
+        <button onclick="random()">click me</button>
+
+        <script>
+            function random(){
+                let wHeight = window.innerHeight
+                let wWidth = window.innerWidth
+
+                let rLeft = Math.random() * (wWidth - b.offsetWidth)
+                let rTop = Math.random() * (wHeight - b.offsetHeight)
+
+                b.style.left = rLeft + 'px'
+                b.style.top = rTop + 'px'
+            }
+
+            let b = document.querySelector('button')
+            b.style.position = 'absolute'
+        </script>
+    </body>
+</html>

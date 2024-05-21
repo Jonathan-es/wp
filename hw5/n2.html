@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <button onclick="move()">click me</button>
+
+        <script>
+            function move(){
+                left = left + 10
+                b.style.left = left + 'px'
+            }
+
+            let left = 100
+            let b = document.querySelector('button')
+            b.style.position = 'absolute'
+            b.style.left = left + 'px'
+        </script>
+    </body>
+</html>
